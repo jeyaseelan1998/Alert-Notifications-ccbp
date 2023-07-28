@@ -12,25 +12,33 @@ const AlertNotifications = () => {
             <ul className='alert-notifications-list'>
                 <Notification>
                     <AiFillCheckCircle className='notification-icon success' />
-                    <h1 className='notification-heading success'>Success</h1>
-                    <p className='notification-description'>You can access all the files in the folder</p>
+                    <div className='notification-details'>
+                        <h1 className='notification-heading success'>Success</h1>
+                        <p className='notification-description'>You can access all the files in the folder</p>
+                    </div>
                 </Notification>
                 <Notification>
                     <RiErrorWarningFill className='notification-icon error' />
-                    <h1 className='notification-heading error'>Error</h1>
-                    <p className='notification-description'>Sorry, you are not authorized to have access to
-                        delete the file</p>
+                    <div className='notification-details'>
+                        <h1 className='notification-heading error'>Error</h1>
+                        <p className='notification-description'>Sorry, you are not authorized to have access to
+                            delete the file</p>
+                    </div>
                 </Notification>
                 <Notification>
                     <MdWarning className='notification-icon warning' />
-                    <h1 className='notification-heading warning'>Warning</h1>
-                    <p className='notification-description'>Viewers of this file can see comments and
-                        suggestions</p>
+                    <div className='notification-details'>
+                        <h1 className='notification-heading warning'>Warning</h1>
+                        <p className='notification-description'>Viewers of this file can see comments and
+                            suggestions</p>
+                    </div>
                 </Notification>
                 <Notification>
                     <MdInfo className='notification-icon info' />
-                    <h1 className='notification-heading info'>Info</h1>
-                    <p className='notification-description'>Anyone on the internet can view these files</p>
+                    <div className='notification-details'>
+                        <h1 className='notification-heading info'>Info</h1>
+                        <p className='notification-description'>Anyone on the internet can view these files</p>
+                    </div>
                 </Notification>
             </ul>
         </div>
