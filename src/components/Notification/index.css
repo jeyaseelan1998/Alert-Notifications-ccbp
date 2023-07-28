@@ -1,1 +1,21 @@
-/* Write your CSS here */
+.notification-container {
+    display: flex;
+    width: 85%;
+    max-width: 850px;
+    border: 1px solid #e5e5e5;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+.notification-details {
+    flex-grow: 1;
+}
+
+.close-icon {
+    color: #64748b;
+    align-self: center;
+    margin-left: 25px;
+    height: 20px;
+    width: 20px;
+}

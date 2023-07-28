@@ -1,1 +1,62 @@
-/* Write your CSS here */
+.alert-notifications-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-heading {
+    margin-top: 50px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.alert-notifications-list {
+    padding-left: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notification-heading {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.notification-description {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    color:  #475569;
+}
+
+.notification-icon {
+    margin-top: 5px;
+    margin-right: 15px;
+    height: 20px;
+    width: 20px;
+}
+
+.success {
+    color: #2dca73;
+}
+
+.error {
+    color: #ff0b37;
+}
+
+.warning {
+    color: #ffb800;
+}
+
+.info {
+    color: #0f81e0;
+}
